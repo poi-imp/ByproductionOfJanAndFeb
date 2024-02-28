@@ -1,0 +1,24 @@
+@charset "utf-8";
+html,body,header,nav,ul{
+    padding: 0;
+    margin:0;
+}
+ul li{
+    list-style-type: none;
+}
+header{
+    padding :16px 28px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+li{
+    margin:2% ;
+  
+}
+div p{
+    margin-top: 0%;
+    /* アンチパターンだけど許して */
+}

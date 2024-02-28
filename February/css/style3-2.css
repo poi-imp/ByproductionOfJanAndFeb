@@ -1,0 +1,60 @@
+@charset "utf-8";
+html ,body,div,header,nav,ul{
+    padding:0;
+    margin:0;
+}
+ul li{
+    list-style-type: none;
+}
+img{
+    padding:0;
+    margin:0;
+    border:none;
+}
+
+.wrapper{
+    margin:0 auto 0 auto;
+    width:100%;
+    
+
+}
+.menu{
+    display: flex;
+
+}
+.menu li{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    border:2px dotted purple;
+}
+.main{
+    display: flex;
+}
+.main section{
+    width: 70%;
+    margin-left: 10%
+}
+.main .sidebar{
+    width: 30%;
+}
+.sidebar nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    width: 100%;
+}
+.sidebar nav ul .banner{
+    background-color: darkorange;
+}
+
+footer{
+    margin-top:2%;
+    border-top:10px solid red;
+    background-color: beige;
+    padding-top:5%;
+    padding-bottom: 5% ;
+}

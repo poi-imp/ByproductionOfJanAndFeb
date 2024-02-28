@@ -1,0 +1,95 @@
+@charset "utf-8";
+html,body,nav,ul,li{
+    padding:0;
+    margin:0;
+
+}
+ul li{
+    list-style-type: none;
+
+}
+.main{
+    display: flex;
+}
+.wrapper{
+    margin :0 auto 0 auto;
+    width:0 900px;
+}
+.contents{
+    float : right;
+    margin-right:  20px;
+    width:460px;
+    order: 2;
+}
+.sidebar1{
+    order:1;
+    float:right;
+    margin-right: 20px !important;
+    margin-right: 0px;
+    width :200px;
+
+}
+.sidebar2{
+    order:3;
+    float:left;
+    width:200px;
+
+}
+/* 
+header */
+header{
+    margin:35px 0 35px 0;
+}
+header h1{
+    margin:10px 0 10px 0;
+    padding:0;
+    /* width :197px;
+    height:34px; */
+    text-indent:-5000px;
+    background-color :blue;
+}
+header ul{
+    overflow:hidden;
+    width: 100%;
+}
+header ul li{
+    float: left;
+    background-color: brown;
+}
+header ul li a{
+    display:block;
+    padding :4px 0 4px 0;
+    width:225px;
+    text-align: center;
+    color:white;
+    text-decoration:none;
+}
+nav .bread{
+    overflow: hidden;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav p{
+    float: left;
+    width :50px;
+    
+}
+nav form{
+    text-align: right;
+    width:50%;
+    
+
+}
+form #login{
+    margin-right: 20px;
+    padding: 20px;
+    border:1px solid greenyellow;
+
+}
+footer{
+    clear: both;
+    margin:20ox 0 20px 0;
+    padding-top: 10px ;
+    border:1px solid red;
+}
